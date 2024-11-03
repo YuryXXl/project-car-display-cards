@@ -1,0 +1,93 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: url(../assets/pattern.png);
+    background-size: 500px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common style for cards */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+/* cards header */
+.card h1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+/* cards paragraphs */
+.card p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+/* style economy */
+.card-economy h1 {
+    color: salmon;
+}
+.card-economy a {
+    background-color: salmon;
+}
+.card-economy a:hover {
+    background-color: rgb(246, 106, 90);
+}
+.card-economy a:active {
+    background-color: rgb(249, 77, 58);
+}
+/* style luxury */
+.card-luxury h1 {
+    color: magenta;
+}
+.card-luxury a {
+    background-color: magenta;
+}
+.card-luxury a:hover {
+    background-color: rgb(228, 4, 228);
+}
+.card-luxury a:active {
+    background-color: rgb(182, 3, 182);
+}
+/* style family */
+.card-family h1 {
+    color: khaki;
+}
+.card-family a {
+    background-color: khaki;
+}
+.card-family a:hover {
+    background-color: rgb(212, 202, 111);
+}
+.card-family a:active {
+    background-color: rgb(200, 191, 111);
+}
+/* style link buttons */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.card-economy {
+    background: white url(../assets/economic-car.png) no-repeat right;
+    background-size: 200px;
+}
+.card-luxury {
+    background: white url(../assets/luxury-car.png) no-repeat right;
+    background-size: 200px;
+}
+.card-family {
+    background: white url(../assets/family-car.png) no-repeat right;
+    background-size: 200px;
+}
+i {
+    margin-right: 5px;
+}
